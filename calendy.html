@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Booking - Hair By Tatiana</title>
+        <link rel="stylesheet" href= "hello_css/styles.css">
+    </head>
+    <body>
+        <header>
+            <!-- Hair By Tatiana Header Message -->
+             <h2> Hair By Tatiana - Your Hair Our Passion</h2>
+             
+        </header>
+        <nav>
+            <ul>
+                <!-- Links to other pages -->
+                <li><a href = "about.html"> About Us</a></li>
+                <li><a href = "contact.htmk"> Contact Us</a></li>
+                <li><a href = "homepage.html"> Home</a></li>
+                <li><a href = "services.html"> Services</a></li>
+                
+            </ul>
+        </nav>
+    
+         <h2>Use the calender below to book your appointment.</h2>
+         <div class = "calendlybox">
+            <div class ="display: flex; justify-content: center">
+          <!-- Calendly inline widget begin -->
+           <div class="calendly-inline-widget" data-url="https://calendly.com/tatianaabdool19/hair-service" style="min-width:320px;height:700px;"></div>
+           <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+         <!-- Calendly inline widget end -->
+        
+        <script>
+            Calendy.initInlineWidget({
+                url: 'https://calendly.com/tatianaabdool19/hair-service' ,
+                parentElement: document.getElementById('calendly-embed')
+            });
+            var calendlyEmbed = document.getElementById('calendly-embed');
+            calendlyEmbed.setAttribute("style", "background-color: #00000000; min-width:100%; height:960px;");
+        </script>
+         </div>
+         </div>
+
+           <!--footer displaying message-->
+           <footer>
+            <p>&copy; 
+               Follow us on Instagram @hair.by.tatianaa    Contact us via  Whatsapp: 780-3956. OR  Email: HairByTatiana@gmail.com </p>
+         </footer>
+ </body>
+ </html>
