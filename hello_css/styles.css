@@ -218,7 +218,7 @@ nav a:hover{
   }
 
   .team-member h2{
-    color: red;
+    color: black;
     font-family: "Papyrus", "Brush Script MT", "lucida Console";
     margin-right: 50px;
     margin-left: 50px;
@@ -435,8 +435,7 @@ nav a:hover{
    font-weight: 100;
    border-radius: 80px;
    background-color: #eb9fc8;
-   padding-left: 10px;
-   padding-right: 10px;
+ 
  }
 
  .hairstyle-bkn2 p{
