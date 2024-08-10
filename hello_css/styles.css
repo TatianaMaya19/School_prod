@@ -160,10 +160,9 @@ nav a:hover{
     float: left;
   border-radius: 30px;
   position: absolute;
-  top: 450px;
-  right: 1215px;
-  border: 3px solid #73AD21;
-  margin-top: 125px;
+  top: 400px;
+  right: 1105px;
+   margin-top: 125px;
 }
 
 .cta:hover{
@@ -416,8 +415,6 @@ nav a:hover{
   }
 
 .hairstyle-bkn img{
-    margin-left: 15px;
-    margin-right: 15px;
     height: 285px;
     width: 200px;
     border-radius: 25px;
@@ -461,7 +458,6 @@ nav a:hover{
 }
 
 .hairstyle-bkn2 img{
-    margin-left: 55px;
     margin-right: 90px;
     height: 285px;
     width: 200px;
